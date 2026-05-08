@@ -19,7 +19,7 @@
            fetch="https://gitlab.com/"
            revision="sixteen-qpr2" />
 
-  <default revision="refs/heads/android16-qpr2-release"
+  <default revision="refs/heads/android16-s2-release"
            remote="aosp"
            sync-j="4" />
 
