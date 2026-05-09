@@ -39,10 +39,10 @@
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" />
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" revision="fd04a910a6b5aa07edb23f806dbef712a0b955e8" />
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" revision="e27e4bf70783c0d7fecfc27a06d2902c5225b2a8" >
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
